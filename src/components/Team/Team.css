@@ -1,0 +1,597 @@
+.border-components {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: lucida-bright;
+}
+.match1{
+    width: 400px;
+    float: left;
+    margin-top: 20px;
+    position: relative;
+}
+.name-components {
+    font-size: 30px;
+    text-align: center;
+}
+.info-team img{
+    height: 70px;
+    width: 70px;
+}
+.info-team {
+    display: flex;
+    justify-content: space-between;
+}
+.des-info {
+    margin-left: 10px;
+}
+.match-info1{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding:5px;
+    width: 400px;
+    height: 150px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.info-match img{
+    height: 70px;
+    width: 70px;
+}
+.info-match {
+    display: flex;
+}
+.match-list a {
+    font-size: 20px;
+    text-align: left;
+    font-weight: 300;
+}
+.header-fixed-match{
+    width: 100%;
+    height: 70px;
+    /* position: fixed;  */
+    z-index: 2;
+    transition: 1s;
+}
+  input.input-match {
+    height: 25px;
+    border-radius: 5px;
+    margin-left: 100px;
+    width: 30%;
+}
+select.select-match {
+    margin-left: 50px;
+    height: 30px;
+    width: 150px;
+}
+button.btn-search {
+    margin-left: 50px;
+    height: 30px;
+    border-radius: 7px;
+    width: 100px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: tahoma;
+}
+.border-list-match{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 1500px;
+    margin: auto;
+    height: auto;
+    margin-top: 30px;
+}
+.info-team-index img{
+    height: 150px;
+    width: 150px;
+}
+.info-team-index {
+    display: flex;
+    justify-content: space-between;
+}
+.info-match-index img{
+    height: 150px;
+    width: 150px;
+}
+.info-match-index {
+    display: flex;
+}
+.type-match-team {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.type-match{
+    display: flex;
+    justify-content: space-around;
+
+}
+.match-info1:hover {
+    /* background: black; */
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.hidden-info-match {
+    height: 700px;
+    width: 360px;
+    position: fixed;
+    right: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.detail-team img{
+    height: 110px;
+    width: 150px;
+}
+.detail-team {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+}
+.name-team-cap {
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.detail-team-match {
+    margin-left: 20px;
+}
+.name-captain {
+    text-align: center;
+    border-bottom: 5px solid #e22889;
+}
+.info-player img{
+    height: 130px;
+    width: 130px;
+}
+.info-player {
+    display: flex;
+    padding: 10px;
+}
+.info-attribute {
+    margin-left: 10px;
+}
+.name {
+    display: flex;
+}
+.progress-bar1 {
+    width: 300px;
+}
+.number-player1 {
+    position: absolute;
+    right: 10px;
+    font-size: 25px;
+}
+button.btn-info {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 1px;
+    cursor: pointer;
+    background: #e00a0a;
+    color: white;
+    font-weight: 700;
+}
+button.btn-info1 {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 1px;
+    cursor: pointer;
+    background: #5fc233;
+    color: white;
+    font-weight: 700;
+}
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+.btn1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -50px;
+}
+.match-info:hover .btn {
+    margin-top: -50px;
+    transition: 0.2s;
+}
+.dialog-info {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgba(0,0,0,0.4);
+}
+.dialog-info-player {
+    height: 400px;
+    width: 700px;
+    margin: auto;
+    background: whitesmoke;
+    margin-top: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.dialog-info-player img {
+    height: 250px;
+    width: 200px;
+    position: relative;
+    left: 10px;
+    top: 30px;
+}
+.btn-close-dialogInfoPlayer {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+    z-index: 99;
+}
+.dialog-info-img {
+    width: 250px;
+    height: 100%;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.dialog-info-player-attribute {
+    display: flex;
+    position: relative;
+    top: 30px;
+    flex-direction: row-reverse;
+    width: 400px;
+    justify-content: space-between;
+}
+.dialog-info-player-attribute {
+    display: flex;
+    position: relative;
+    top: 30px;
+    flex-direction: row-reverse;
+    width: 400px;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.dialog-info-name-type {
+    position: relative;
+    right: 50px;
+    text-align: -webkit-center;
+    font-weight: 700;
+}
+.dialog-info-player-all {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:20px;
+    width: 400px;
+}
+.dialog-info-player-positionScore {
+    width: 730px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    height: 170px;
+}
+.dialog-info-img-looks {
+    margin: auto;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.dialog-info-title {
+    position: absolute;
+    top: 10px;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    border-bottom: groove;
+    font-weight: 800;
+}
+.dialog-info-btn-action {
+    width: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 450px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    background: red;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+.dialog-info-btn-action1 {
+    width: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 300px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    background: lightgreen;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+}
+.match-info2 {
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    padding: 5px;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    cursor: pointer;
+    height: 200px;
+}
+.height-set{
+    height: 200px;
+}
+.dialog-info-header {
+    height: 30px;
+    position: relative;
+    top: 15px;
+}
+.dialog-btn-teaminfo {
+    border: none;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    background:none;
+}
+.btn-active{
+    border-bottom: double;
+}
+.dialog-info-player1 {
+    width: 1000px;
+    height: 700px;
+    margin-top: 50px;
+}
+.header-pages1 {
+    width: 700px;
+}
+.dialog-info-player-positionScore img {
+    height: 150px;
+    width: 150px;
+    top: 10px;
+    left: 0px;
+}
+.dialog-info-player-details {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-around;
+}
+.dialog-info-player-score {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    left: 15px;
+}
+.dialog-info-player-all {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    width: 400px;
+}
+.dialog-info-player-numer {
+    position: absolute;
+    z-index: 3;
+    color: white;
+    font-size: 30px;
+    top: 5px;
+    left: 15px;
+}
+.dialog-info-matchHistory {
+    display: flex;
+    position: relative;
+    top: 50px;
+    width: 700px;
+    flex-direction: column;
+}
+.TeamInfoLeft {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.TeamInfoRight {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.dialog-info-players img {
+    width: 110px;
+    height: 130px;
+    left: -10px;
+}
+.dialog-info-player-positionScore1 {
+    width: 750px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    height: 250px;
+}
+.TeamInfoName {
+    position: relative;
+    top: 30px;
+    left: -15px;
+    text-align-last: center;
+}
+.NameClb {
+    font-size: 15px;
+    font-weight: 600;
+    inline-size: max-content;
+}
+.TheMatch {
+    font-weight: 300;
+    font-style: italic;
+}
+.TeamInfoLeft-Players {
+    position: relative;
+    top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.PlayerGetScrore {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 100;
+}
+img.TeamInfoRight-img {
+    left: 10px;
+}
+.TeamInfoName1 {
+    right: -5px;
+    position: relative;
+    top: 30px;
+    text-align-last: center;
+}
+.SroceMath-flex {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    position: relative;
+    height: 100px;
+}
+.SroceMath-name {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.SroceMath-Date {
+    position: relative;
+    bottom: 15px;
+    font-size: 18px;
+    font-style: italic;
+}
+.SroreMatch {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.SroceMath-Sroce1 {
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+}
+.TeamInfoLeft-name img {
+    left: 10px;
+}
+.dialog-info-player-positionScore2 {
+    position: relative;
+    top: 50px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container-shop {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-shop {
+    height: auto;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    width: 300px;
+    position: sticky;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.product-shop {
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    width: 1200px;
+    position: relative;
+    right: 50px;
+}
+.menu-shop-name {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 20px;
+}
+.shop-cart {
+    width: 300px;
+    height: auto;
+    top: 10px;
+    position: relative;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    margin: 10px;
+}
+.product-card {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+}
+.left-product-card img {
+    width: 150px;
+    height: 100px;
+}
+.left-product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 3px;
+}
+.product-card {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    padding: 10px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+.right-product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.btn-action-product-card {
+    position: absolute;
+    right: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.product-card-timeOrder {
+    position: absolute;
+    left: 15px;
+}
+.product-shop-img img {
+    height: 150px;
+    width: 200px;
+}
+.product-shop-cart {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 250px;
+    float: left;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    margin: 10px;
+    cursor:pointer;
+}
+.product-shop-info {
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-shop-cart:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}

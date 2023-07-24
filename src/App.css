@@ -1,0 +1,39 @@
+
+.header-pages {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  height: 50px;
+  align-items: center;
+}
+.header-fixed{
+  width: 100%;
+  height: 70px;
+  /* position: fixed; */
+  z-index: 2;
+  transition: 1s;
+}
+.header-fixed1{
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  /* position: fixed; */
+  z-index: 2;
+  top: 0;
+  background-color:#161109;
+  transition: 1s;
+}
+.header-fixed1 a{
+  color: #ffff;
+}
+a {
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: #161109;
+}
+a.botton-link{
+border-bottom: 2px solid magenta;
+}

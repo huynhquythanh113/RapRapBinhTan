@@ -1,0 +1,38 @@
+.border-components {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: lucida-bright;
+}
+.shop{
+    width: 700px;
+}
+.name-components {
+    font-size: 30px;
+    text-align: center;
+}
+.product-sell{
+    width: 700px;
+    height: auto;
+    padding: 10px;
+}
+.products{
+    float: left;
+    padding: 20px;
+    width: 25%;
+}
+.name-product{
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-start;
+}
+.price-product {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 800;
+    color: red;
+}
+.pricesale-product {
+    text-decoration: line-through;
+    margin-right: 10px;
+    color:black;
+}

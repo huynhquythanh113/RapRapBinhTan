@@ -1,0 +1,20 @@
+.border-components {
+    font-family: lucida-bright;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.rank {
+    width: 300px;
+}
+.name-components {
+    font-size: 30px;
+    text-align: center;
+}
+.name-team-rank {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.name-team-ranking {
+    font-size: 20px;
+    padding-top: 10px;
+}
