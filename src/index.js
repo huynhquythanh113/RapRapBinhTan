@@ -16,6 +16,7 @@ import Shop from "./components/Shop.js";
 import TeamIndex from "./components/Team/TeamIndex.js";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
+     <BrowserRouter basename={process.env.PUBLIC_URL}>
   <React.StrictMode>
     <Router>
       <Routes>
@@ -35,6 +36,8 @@ root.render(
       </Routes>
     </Router>
   </React.StrictMode>
+  </BrowserRouter>
+
 );
 
 // If you want to start measuring performance in your app, pass a function
